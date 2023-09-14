@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import "./Cart.css";
-const Cart = ({ courses }) => {
+const Cart = ({ courses, price }) => {
   console.log(courses);
   return (
     <div>
@@ -16,7 +16,7 @@ const Cart = ({ courses }) => {
       <hr />
       <h4>Total Credit Hour : 13</h4>
       <hr />
-      <h4>Total Price : 48000 USD</h4>
+      <h4>Total Price : {price} USD</h4>
     </div>
   );
 };

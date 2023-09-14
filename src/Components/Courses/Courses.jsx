@@ -7,13 +7,28 @@ import { BsBook } from "react-icons/bs";
 const Courses = () => {
   const [allCourses, setAllCourses] = useState([]);
   const [courses, setCourses] = useState([]);
+  const [price, setPrice] = useState(0);
 
   useEffect(() => {
     fetch("./data.json")
       .then((res) => res.json())
       .then((data) => setAllCourses(data));
   }, []);
+
   const handleClicked = (course) => {
+    const isCourseSelected = courses.find((item) => item.name === course.name);
+
+    let price = course.price;
+    let creditHour = course.credit_hours;
+
+    if (isCourseSelected) {
+      return alert("Already In Your List");
+    } else {
+      courses.forEach((coursePrice) => {
+        price += coursePrice.price;
+      });
+      setPrice(price);
+    }
     setCourses([...courses, course]);
   };
 
@@ -43,7 +58,7 @@ const Courses = () => {
           </div>
         </div>
         <div className="cart">
-          <Cart courses={courses}></Cart>
+          <Cart courses={courses} price={price}></Cart>
         </div>
       </div>
     </div>
