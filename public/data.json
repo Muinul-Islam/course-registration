@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "img": "https://i.ibb.co/6g2kcKT/c-Programming.png",
+    "name": "Introduction to C Programming",
+    "details": "C Programming is a very popular language, despite being old. The main reason for its popularity is because it is a fundamental language in the field of computer science.",
+    "price": 15000,
+    "credit_hours": 1
+  },
+  {
+    "id": "2",
+    "img": "https://i.ibb.co/Ntcf9hD/algorithm.png",
+    "name": "Introduction to Algorithms",
+    "details": "An algorithm is a procedure used for solving a problem or performing a computation.",
+    "price": 25000,
+    "credit_hours": 2
+  },
+  {
+    "id": "3",
+    "img": "item3.jpg",
+    "name": "Introduction to C++ for DSA",
+    "details": "C++ is and will be one of the most demanding programming languages, which is used by over 4 million programmers worldwide.",
+    "price": 10000,
+    "credit_hours": 10
+  },
+  {
+    "id": "4",
+    "img": "https://i.ibb.co/0DHnkDG/ds.png",
+    "name": "Basic Data Structures",
+    "details": "A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently.",
+    "price": 35000,
+    "credit_hours": 5
+  },
+  {
+    "id": "5",
+    "img": "https://i.ibb.co/rk0DfnF/python.pnghttps://i.ibb.co/rk0DfnF/python.png",
+    "name": "Introduction to OOP Python",
+    "details": "In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming.",
+    "price": 19000,
+    "credit_hours": 5
+  },
+  {
+    "id": "6",
+    "img": "https://i.ibb.co/94xg19M/se.png",
+    "name": "Software Engineering",
+    "details": "Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications.",
+    "price": 23000,
+    "credit_hours": 2
+  },
+  {
+    "id": "7",
+    "img": "https://i.ibb.co/PcGCzs7/aws.png",
+    "name": "AWS, Cloud Computing",
+    "details": "Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.",
+    "price": 35000,
+    "credit_hours": 5
+  },
+  {
+    "id": "8",
+    "img": "https://i.ibb.co/mJ0DcbG/mySql.png",
+    "name": "Database (MySQL)",
+    "details": "MySQL is a relational database management system based on the Structured Query Language, which is the popular language for accessing and managing the records in the database.",
+    "price": 19000,
+    "credit_hours": 5
+  },
+  {
+    "id": "9",
+    "img": "https://i.ibb.co/b2QLqjn/problem-solving.png",
+    "name": "Problem-Solving Part",
+    "details": "Problem solving is the process of achieving a goal by overcoming obstacles, a frequent part of most activities.",
+    "price": 23000,
+    "credit_hours": 2
+  }
+]
