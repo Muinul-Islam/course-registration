@@ -44,3 +44,8 @@ body {
   gap: 15px;
   border: 1px solid red;
 }
+.credit-icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
