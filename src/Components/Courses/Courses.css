@@ -35,17 +35,19 @@ body {
 }
 .cart {
   width: 300px;
-  border: 1px solid green;
   margin-left: 25px;
 }
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  border: 1px solid red;
 }
 .credit-icon {
   display: flex;
   align-items: center;
   gap: 4px;
+}
+.card-heading {
+  font-size: 18px;
+  font-weight: 600;
 }

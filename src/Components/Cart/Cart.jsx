@@ -5,18 +5,20 @@ const Cart = ({ courses, price, totalCreditHours, remainingCreditHours }) => {
   console.log(courses);
   return (
     <div>
-      <h3>Credit Hour Remaining {remainingCreditHours} hr</h3>
-      <hr />
-      <h2>Course Name</h2>
+      <h3 className="heading">
+        Credit Hour Remaining {remainingCreditHours} hr
+      </h3>
+      <hr className="hr" />
+      <h2 className="course-name">Course Name</h2>
       {courses.map((course, index) => (
         <li className="list-item" key={index}>
           {index + 1} {course.name}
         </li>
       ))}
-      <hr />
-      <h4>Total Credit Hour : {totalCreditHours}</h4>
-      <hr />
-      <h4>Total Price : {price} USD</h4>
+      <hr className="hr" />
+      <p>Total Credit Hour : {totalCreditHours}</p>
+      <hr className="hr" />
+      <p>Total Price : {price} USD</p>
     </div>
   );
 };

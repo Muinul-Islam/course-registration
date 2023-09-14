@@ -1,3 +1,15 @@
 .list-item {
   list-style: none;
 }
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+}
+.hr {
+  width: 290px;
+}
+.course-name {
+  font-size: 20px;
+  font-weight: 700;
+}

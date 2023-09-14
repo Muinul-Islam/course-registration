@@ -46,8 +46,8 @@ const Courses = () => {
             {allCourses.map((course) => (
               <div className="card">
                 <img className="card-img" src={course.img} alt="" />
-                <h3>{course.name}</h3>
-                <p>{course.details}</p>
+                <h3 className="card-heading">{course.name}</h3>
+                <p className="details">{course.details}</p>
                 <div className="info">
                   <p>$ Price: {course.price}</p>
                   <div>
