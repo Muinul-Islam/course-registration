@@ -2,7 +2,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 .card {
-  width: 300px;
+  width: 250px;
   height: 380px;
   border: 1px solid lightblue;
   padding: 10px;
@@ -15,11 +15,11 @@ body {
   align-items: center;
 }
 .card-img {
-  width: 280px;
+  width: 250px;
   height: 144px;
 }
 .btn {
-  width: 280px;
+  width: 250px;
   padding: 6px;
   border-radius: 8px;
   border-style: none;
@@ -28,11 +28,19 @@ body {
   font-size: 16px;
 }
 .courses {
-  width: 700px;
+  width: 900px;
 }
 .container {
   display: flex;
 }
 .cart {
   width: 300px;
+  border: 1px solid green;
+  margin-left: 25px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  border: 1px solid red;
 }
