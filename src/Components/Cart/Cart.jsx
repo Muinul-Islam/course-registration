@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import "./Cart.css";
-const Cart = ({ courses, price }) => {
+const Cart = ({ courses, price, totalCreditHours, remainingCreditHours }) => {
   console.log(courses);
   return (
     <div>
-      <h3>Credit Hour Remaining 7 hr</h3>
+      <h3>Credit Hour Remaining {remainingCreditHours} hr</h3>
       <hr />
       <h2>Course Name</h2>
       {courses.map((course, index) => (
@@ -14,7 +14,7 @@ const Cart = ({ courses, price }) => {
         </li>
       ))}
       <hr />
-      <h4>Total Credit Hour : 13</h4>
+      <h4>Total Credit Hour : {totalCreditHours}</h4>
       <hr />
       <h4>Total Price : {price} USD</h4>
     </div>
