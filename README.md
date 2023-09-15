@@ -14,7 +14,7 @@ Discussing the states of my assignment projects:
 
 - Then, Used useEffect to fetch the data from the json fake data('data.json') which i created earlier. Those data are stored in the allCourses state variable.
 
-- I created a function to handle all the functionalities of the button in handleClicked function. It is used to compare and show the results to the cart.
+- I created a function to handle all the functionalities of the button in handleClicked function. It is used to compare and show the results to the cart. It calculate the remaining hour , total credit hour and the total price and set them to the useStates and then those are passed through the props.
 
 - Also i implement the react-hot-toast if it is being tried to add the courses more then once and if remaining credit hours is less then zero.
 
