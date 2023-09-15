@@ -4,6 +4,7 @@ import Cart from "../Cart/Cart";
 import "./Courses.css";
 import { useState } from "react";
 import { BsBook } from "react-icons/bs";
+import toast, { Toaster } from "react-hot-toast";
 
 const Courses = () => {
   const [allCourses, setAllCourses] = useState([]);
@@ -22,7 +23,7 @@ const Courses = () => {
     const isCourseSelected = courses.find((item) => item.name === course.name);
 
     if (isCourseSelected) {
-      return alert("Already In Your List");
+      return toast.error("Already In Your List");
     } else {
       const newPrice = price + course.price;
       const newCreditHours = totalCreditHours + course.credit_hours;
@@ -33,7 +34,7 @@ const Courses = () => {
         SetRemainingCreditHours(20 - newCreditHours);
         setCourses([...courses, course]);
       } else {
-        alert("Credit Hours Exceeded!");
+        toast.error("Credit Hours Exceeded!");
       }
     }
   };
@@ -56,9 +57,12 @@ const Courses = () => {
                     </p>
                   </div>
                 </div>
-                <button onClick={() => handleClicked(course)} className="btn">
-                  Select
-                </button>
+                <div className="btn-container">
+                  <button onClick={() => handleClicked(course)} className="btn">
+                    Select
+                  </button>
+                </div>
+                <Toaster />
               </div>
             ))}
           </div>
