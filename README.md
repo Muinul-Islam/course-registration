@@ -1,8 +1,7 @@
-# React + Vite
+3 Projects Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. 9 cards are here containing image, name, details, price, credit and a select button in the left side and right side there is a cart which contain all the calculation part.
 
-Currently, two official plugins are available:
+2. If you click on the select button the name of the card will be added to the cart on the right side in a ascending order.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. After clicking on select button it will also calculate and will also show the total price and total credit hour . It will also show the remaining credit hour.
