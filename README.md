@@ -21,3 +21,6 @@ Discussing the states of my assignment projects:
 - In the return section of the Courses.jsx component there is a map function which is implemented on allCourses for render the each course. It will be triggered whenever the select button is clicked.
 
 - Then i pass those data as objects to the component named Cart.jsx . This component is used to show the remaining hour , course name , total credit hour and total price to the cart.
+
+
+Live link: http://course-registration-with-react.surge.sh/
